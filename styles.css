@@ -1,8 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between;
 }
 
 .header {
@@ -29,14 +27,23 @@ body {
     margin: 30px;
 }
 
-img {
-    height: 250px;
-}
-
 .pane2{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.right img {
+    height: 200px;
+}
+
+img {
+    height: 150px;
+}
+
+
+.container {
+    display: flex;
 }
 
 
