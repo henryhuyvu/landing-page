@@ -1,9 +1,9 @@
 img {
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -43,13 +43,13 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    padding: 100px 15px;
+    padding: 60px 15px;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 .left {
     color: #F9FAF8;
-    width: 700px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -65,9 +65,16 @@ body {
     border-radius: 8px;
     border-style: solid;
     margin: 4px 0px;
+    height: 26px;
+    padding: 14px;
+    line-height: 0px;
+    flex-shrink: 0;
 }
 .right img {
     width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 70%;
 }
 
 .panel.information {
@@ -96,6 +103,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
     gap: 8px;
     width: 200px;
 }
@@ -129,17 +137,25 @@ body {
     display: flex;
     justify-content: center;
     gap: 60px;
-    padding: 24px;
+    padding: 48px 24px;
 }
 .action .container {
     background-color: #3882F6;  
+    padding: 32px;
+    display: flex;
+    border-radius: 8px;
+    gap: 80px;
+    align-items: center;
 }
 .call-text {
     color: #E5E7EB;
     font-size: 14px;
+    max-width: 350px;
+    font-style: italic;
 }
 .call {
-    font-weight: bold;  
+    font-weight: bolder;
+    font-size: large;  
 }
 .callbutton {
     border-color: #E5E7EB;
@@ -151,6 +167,7 @@ body {
     padding: 14px;
     line-height: 0px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -158,5 +175,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 60px;
 }
